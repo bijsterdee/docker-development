@@ -3,7 +3,7 @@ Nothing fancy or special, just a combination of the official containers with som
 
 How to
 ======
-* Launch the stack by using: `docker-compose up -d`
+* Launch the stack by using: `sudo docker-compose up -d`
 * Make your project checkouts in the `www` folder. 
   * Nginx will look for a `web` folder inside your project, e.g.: `www/default/web`.
 * Nginx will accept requests on `<foldername>.local.dev` where `<foldername>` is the name of your www folder.
